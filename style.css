@@ -263,9 +263,11 @@ article > p{
 }
 
 .bottom{
-    display:flex;
- 
-    gap:2em;
+   
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:500px) {
