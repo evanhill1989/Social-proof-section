@@ -187,18 +187,30 @@ main{
 }
 
 article{
-    background-color:hsl(300, 43%, 22%);
-    border-radius:7px;
-    padding:25px;
-    height:80%;
-    display:flex;
+  background-color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+    padding: 25px;
+    /* height: 80%; */
+    display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap:22px;
-    
-
+    gap: 22px;
 
 }
+
+.bottom : nth-child(0){
+  align-self:flex-start;  
+}
+
+.bottom : nth-child(1){
+  align-self:center;
+}
+
+.bottom : nth-child(2){
+  align-self:flex-end; 
+}
+
 
 article > p{
     color:white;
